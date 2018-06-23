@@ -14,5 +14,5 @@ const express = require('express');
 
 let app = express();
 app.use(express.static('./'));
-const server = http.createServer(app);
-server.listen(8000, ()=> console.log("Server is listening at 8000"));
+const myServer = http.createServer(app);
+myServer.listen(8000, ()=> console.log("Server is listening at 8000"));
